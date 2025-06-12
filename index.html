@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coin Toss Simulator</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1 class="main-heading">Coin Toss Simulator</h1>
+    <p class="para-discription"> The Coin Toss Simulator is a simple web-based tool that mimics the flipping of a real coin. When the user clicks the "Toss" button, the simulator randomly generates either "Heads" or "Tails" and displays the result on the screen, often with a corresponding coin image or animation.</p>
+    <div class="img">
+        <h2 class="result-heading" >Refresh Me</h2>
+        <img class="display_img" src="./Images/DisplayImg.png" alt="DisplayImage">
+    </div>
+    <button class="flip-btn" onclick="flipCoin()">Flip Coin</button>
+     <audio id="flipSound" src="./Audio/coinFlipping.mp3" preload="auto"></audio>
+     <h2 class="footer">Created with ❤️ by Abdullah Ali</h2>
+    <script src="./index.js"></script>
+</body>
+</html>
